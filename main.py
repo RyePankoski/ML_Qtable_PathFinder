@@ -82,7 +82,7 @@ class QLearningAgent:
         self.learning_rate = learning_rate
         self.discount_factor = discount_factor
         self.epsilon = epsilon
-        self.epsilon_decay = 0.995
+        self.epsilon_decay = 0.999
         self.min_epsilon = 0.01
         self.q_table = {}
 
